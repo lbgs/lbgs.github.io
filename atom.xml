@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://sb-h.github.io</id>
     <title>小黑Blog</title>
-    <updated>2020-04-14T08:17:10.700Z</updated>
+    <updated>2020-04-14T09:04:12.875Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://sb-h.github.io"/>
     <link rel="self" href="https://sb-h.github.io/atom.xml"/>
@@ -10,6 +10,55 @@
     <logo>https://sb-h.github.io/images/avatar.png</logo>
     <icon>https://sb-h.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 小黑Blog</rights>
+    <entry>
+        <title type="html"><![CDATA[nav菜单横向滚动隐藏滚动条]]></title>
+        <id>https://sb-h.github.io/post/Beuhvm1IU/</id>
+        <link href="https://sb-h.github.io/post/Beuhvm1IU/">
+        </link>
+        <updated>2020-04-14T08:18:12.000Z</updated>
+        <summary type="html"><![CDATA[<p>当我们移动端nav菜单很多时候，需要实现滚动效果。使用 <code>overflow-x: scroll</code>  会出现滚动条，可以使用以下方法将滚动条隐藏。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>当我们移动端nav菜单很多时候，需要实现滚动效果。使用 <code>overflow-x: scroll</code>  会出现滚动条，可以使用以下方法将滚动条隐藏。</p>
+<!-- more -->
+<h2 id="方法">方法</h2>
+<pre><code class="language-javascript"> .scroll {
+     padding-bottom: 10px;
+     margin-bottom: -10px;
+ }
+</code></pre>
+<h2 id="附案例">附案例</h2>
+<h3 id="html">HTML</h3>
+<pre><code class="language-javascript">&lt;div id=&quot;slider&quot; class=&quot;slider&quot;&gt;
+     &lt;nav class=&quot;scroll&quot;&gt;
+        &lt;a class=&quot;control-item active&quot; href=&quot;#&quot;&gt;推荐&lt;/a&gt;
+        &lt;a class=&quot;control-item&quot; href=&quot;#&quot;&gt;热点&lt;/a&gt;
+        &lt;a class=&quot;control-item&quot; href=&quot;#&quot;&gt;北京&lt;/a&gt;
+        &lt;a class=&quot;control-item&quot; href=&quot;#&quot;&gt;社会&lt;/a&gt;
+        &lt;a class=&quot;control-item&quot; href=&quot;#&quot;&gt;娱乐&lt;/a&gt;
+        &lt;a class=&quot;control-item&quot; href=&quot;#&quot;&gt;科技&lt;/a&gt;
+	&lt;/nav&gt;
+&lt;/div&gt;
+</code></pre>
+<h3 id="css">CSS</h3>
+<pre><code class="language-javascript">.slider {
+	widows: 100%;
+	line-height: 40px;
+	overflow: hidden;
+}
+.scroll {
+	overflow-x: scroll;
+	padding-bottom: 10px;
+	margin-bottom: -10px;
+	white-space: nowrap;
+}
+.control-item {
+	display: inline-block;
+	width: 100px;
+	text-align: center;
+}
+</code></pre>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
         <id>https://sb-h.github.io/post/hello-gridea/</id>
