@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://sb-h.github.io</id>
     <title>小黑Blog</title>
-    <updated>2020-04-14T10:35:43.436Z</updated>
+    <updated>2020-04-20T17:58:56.362Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://sb-h.github.io"/>
     <link rel="self" href="https://sb-h.github.io/atom.xml"/>
@@ -10,6 +10,17 @@
     <logo>https://sb-h.github.io/images/avatar.png</logo>
     <icon>https://sb-h.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 小黑Blog</rights>
+    <entry>
+        <title type="html"><![CDATA[取消Vue-cli的eslint的严格模式]]></title>
+        <id>https://sb-h.github.io/post/93WmNaqGa/</id>
+        <link href="https://sb-h.github.io/post/93WmNaqGa/">
+        </link>
+        <updated>2020-04-20T17:28:52.000Z</updated>
+        <summary type="html"><![CDATA[<p>当我们使用vue-cli默认创建项目的，会直接按照默认安装了eslint了，刚开始觉得还好，有个限制也能规范一点，就没管了。但是写的时候会遇到一个很头疼的问题，就是你先定义好一个变量，后面再拿来用，但是eslint不应许你这样，你定义了必须现在用😤😤！！！如下图</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>当我们使用vue-cli默认创建项目的，会直接按照默认安装了eslint了，刚开始觉得还好，有个限制也能规范一点，就没管了。但是写的时候会遇到一个很头疼的问题，就是你先定义好一个变量，后面再拿来用，但是eslint不应许你这样，你定义了必须现在用😤😤！！！如下图</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[nav菜单横向滚动隐藏滚动条]]></title>
         <id>https://sb-h.github.io/post/Beuhvm1IU/</id>
