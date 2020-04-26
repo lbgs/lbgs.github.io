@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://sb-h.github.io</id>
-    <title>小黑Blog</title>
-    <updated>2020-04-20T18:00:57.985Z</updated>
+    <title>小黑</title>
+    <updated>2020-04-26T15:21:03.957Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://sb-h.github.io"/>
     <link rel="self" href="https://sb-h.github.io/atom.xml"/>
     <subtitle>温故而知新</subtitle>
     <logo>https://sb-h.github.io/images/avatar.png</logo>
     <icon>https://sb-h.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2020, 小黑Blog</rights>
+    <rights>All rights reserved 2020, 小黑</rights>
     <entry>
         <title type="html"><![CDATA[取消Vue-cli的eslint的严格模式]]></title>
         <id>https://sb-h.github.io/post/93WmNaqGa/</id>
